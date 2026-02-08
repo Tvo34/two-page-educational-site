@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Healthy Weight Gain Guide</title>
+
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
 
     <!--Header contains the main title and introduction of the page-->
-  <header>
+  <header id="main-header">
+
     <h1>Healthy Weight Gain for College Students</h1>
     <p>
       Gaining weight in a healthy way can be challenging for many college students.
@@ -30,37 +33,45 @@
 
     <!-- Section groups related tips and lists together -->
 
-    <section>
-      <h2>Key Habits for Healthy Weight Gain</h2>
+    <section id="habits-section">
 
-      <p>
-        Building healthy habits is more effective than forcing yourself to eat large portions.
-        Small changes done consistently can lead to long-term results.
-      </p>
+  <!-- Image centered at the top -->
+      <div class="image-wrapper">
+        <img 
+          src="images/cover.webp" 
+          alt="Healthy meals and strength training for weight gain">
+      </div>
 
+  <!-- Flexbox container for two boxes -->
+  <div class="flex-container">
+
+    <div class="content-box">
       <h3>Daily Nutrition Tips</h3>
       <ul>
         <li>Eat three main meals and two snacks every day</li>
         <li>Include protein in every meal</li>
         <li>Choose calorie-dense but nutritious foods</li>
       </ul>
+    </div>
 
+    <div class="content-box">
       <h3>Simple Steps to Get Started</h3>
       <ol>
         <li>Plan meals ahead of time</li>
         <li>Track your weight weekly</li>
         <li>Adjust portions gradually</li>
       </ol>
+    </div>
 
-      <img 
-        src="images/cover.webp" 
-        alt="Healthy meals and strength training for weight gain" 
-        width="300">
-    </section>
+  </div>
+
+</section>
+
+
   </main>
     <!-- Footer provides navigation to the other page -->
 
-  <footer>
+  <footer id="main-footer">
     <a href="page2.html">Read more on Page 2</a>
   </footer>
 
