@@ -3,74 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Healthy Weight Gain - Page 2</title>
+  <title>Healthy Weight Gain - Exercise and Lifestyle</title>
   <link rel="stylesheet" href="./css/style.css" />
-
 </head>
+
 <body>
 
-    <!-- Header contains the page title and a brief introduction -->
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
+  <!-- Header -->
   <header id="main-page-header2">
     <h1>Exercise and Lifestyle Tips for Healthy Weight Gain</h1>
     <p>
       This page explains how exercise, sleep, and daily habits can support healthy weight gain for college students.
     </p>
+
+    <!-- Navigation -->
+    <nav aria-label="Primary Navigation">
+      <a href="index.html">Home</a>
+      <a href="page2.html">Exercise & Lifestyle Tips</a>
+    </nav>
   </header>
-    <!-- Main section holds the primary educational content of the page -->
 
-  <main id="page2-content">
-    <p>
-      Strength training helps your body turn extra calories into muscle instead of fat. Even short workouts can be effective if done consistently.
-    </p>
+  <!-- Main Content -->
+  <main id="main-content">
 
-    <p class="intro-text">
-      Getting enough sleep allows your muscles to recover and grow. Poor sleep can slow down progress and reduce appetite.
-    </p>
+    <section>
+      <h2>Why Exercise and Sleep Matter</h2>
 
-    <!-- Section groups related workout and recovery tips -->
+      <p>
+        Strength training helps your body turn extra calories into muscle instead of fat.
+        Even short workouts can be effective if done consistently.
+      </p>
+
+      <p>
+        Getting enough sleep allows your muscles to recover and grow.
+        Poor sleep can slow down progress and reduce appetite.
+      </p>
+    </section>
 
     <section id="workout-section">
-      <h2>Workout + Recovery Basics</h2>
-      <p class ="intro-text">
-        You don’t need a complicated plan. Start with a few basic movements and slowly increase your effort.
+
+      <h2>Workout and Recovery Basics</h2>
+
+      <p>
+        You don’t need a complicated plan. Start with a few basic movements
+        and slowly increase your effort.
       </p>
-    
-    <!--Image visually supports the topic of health weight gain-->
-    <div class ="image-wrapper">
-      <img src="images/cover.webp" alt="Healthy foods for weight gain" width="400">
-    </div>  
 
-    <!-- Flexbox wrapper to match Resource #3 style (optional but helps consistency) -->
-      <div id="workout_wrapper">
-        <section class="content-box" id="exercise-list">
-          <p class="subheader">Good Beginner Strength Exercises</p>
-      <ul>
-        <li>Squats or leg press</li>
-        <li>Push-ups or bench press</li>
-        <li>Rows or pull-downs</li>
-      </ul>
+      <!-- Supporting image -->
+      <div class="image-wrapper">
+        <img 
+          src="images/cover.webp" 
+          alt="College student performing strength training exercises in a gym"
+        >
+      </div>
+
+      <div id="workout_wrapper" class="flex-container">
+
+        <div class="content-box" id="exercise-list">
+          <h3>Good Beginner Strength Exercises</h3>
+          <ul>
+            <li>Squats or leg press</li>
+            <li>Push-ups or bench press</li>
+            <li>Rows or pull-downs</li>
+          </ul>
+        </div>
+
+        <div class="content-box" id="routine-list">
+          <h3>Simple Weekly Routine</h3>
+          <ol>
+            <li>Choose 2–3 workout days each week</li>
+            <li>Increase weights slowly over time</li>
+            <li>Rest and eat properly after training</li>
+          </ol>
+        </div>
+
+      </div>
+
     </section>
 
-    <section class="content-box" id="routine-list">
-      
-    <!-- Ordered list presents steps in a logical order -->
-      <p class="subheader">Weekly Routine (Simple)</p>
-      <ol>
-        <li>Choose 2–3 workout days each week</li>
-        <li>Increase weights slowly over time</li>
-        <li>Rest and eat properly after training</li>
-      </ol>
+  </main>
 
-    </section>
-  </div>
-</section>
-</main>
-  
-  <!-- Footer contains navigation back to the home page -->
-
+  <!-- Footer -->
   <footer id="main-footer-2">
-    <a href="index.html" class="button-link">Back to Home</a>
+    <p>
+      Return to the 
+      <a href="index.html" class="button-link">Healthy Weight Gain Home Page</a>.
+    </p>
   </footer>
 
 </body>
